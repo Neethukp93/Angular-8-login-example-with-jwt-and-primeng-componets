@@ -1,0 +1,38 @@
+.outer-top {
+  display: block;
+  /* position: fixed; */
+  top: 0;
+  /* background: black; */
+  width: 100%;
+  z-index: 1;
+}
+.inner-top {
+  color: #fff !important;
+  background-color: #000 !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  width: 100%;
+}
+
+.w3-bar-item {
+  width: auto;
+  color: #fff;
+  white-space: normal;
+  outline: 0;
+  padding: 10px 24px;
+  text-decoration: none;
+  vertical-align: middle;
+  border: none;
+  float: left;
+}
+.w3-bar-item-right {
+  width: auto;
+  color: #fff;
+  white-space: normal;
+  outline: 0;
+  padding: 10px 24px;
+  text-decoration: none;
+  vertical-align: middle;
+  border: none;
+  float: right;
+}

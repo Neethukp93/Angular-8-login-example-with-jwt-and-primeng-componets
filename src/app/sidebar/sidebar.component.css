@@ -1,0 +1,16 @@
+.sidebar {
+  width: 15%;
+  background: #f1f0f0;
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+.sidebar-item {
+  text-align: center;
+  vertical-align: middle;
+  margin: 19px 10px;
+  border-radius: 4px;
+  padding: 4px 3px;
+  background-color: #d2cbcb;
+}

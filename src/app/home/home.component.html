@@ -1,0 +1,22 @@
+<app-sidebar></app-sidebar>
+<div class="right-content">
+    <p-table [value]="users">
+        <ng-template pTemplate="header">
+          <tr>
+            <th>
+              Name
+            </th>
+            <th>
+              Username
+            </th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-user>
+            <tr>
+                <td>{{user.firstName+ ' ' +user.lastName}}</td>
+                <td>{{user.username}}</td>
+            </tr>
+        </ng-template>
+      </p-table>
+</div>
+

@@ -1,0 +1,17 @@
+<div class="outer-top">
+  <div class="inner-top">
+    <a [routerLink]="'/employee'" class="w3-bar-item ">HOME</a>
+    <a [routerLink]="'/employee'" [class.special]="'data'" class="w3-bar-item "
+      >ABOUT US</a
+    >
+    <a routerLink="" class="w3-bar-item ">SERVICES</a>
+    <a routerLink="#" class="w3-bar-item ">CONTACT US</a>
+    <a
+      *ngIf="userValue"
+      routerLink="#"
+      (click)="logout()"
+      class="w3-bar-item-right"
+      >LOGOUT</a
+    >
+  </div>
+</div>
