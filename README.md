@@ -1,7 +1,8 @@
 # Angular-8-login-example-with-jwt,primeng-componets-and-Jest-configuration
 
-This application helps you to understand the login using jwt, but you have to set the backend api for running this application.
+This application helps you to understand the login functionality using jwt, but you have to set the backend api for running this application.
 
+- clone or download this application and do : npm install
 - please refer this link to create a real backend api using Nodejs :
   https://jasonwatmore.com/post/2018/06/14/nodejs-mongodb-simple-api-for-authentication-registration-and-user-management
 - After completing the setup of Nodejs, first you need to register one user using the api:
@@ -21,6 +22,6 @@ This application helps you to understand the login using jwt, but you have to se
 
   - send the data with api you will get response.
 
-- run the angular application try login with the credentials.
+- run the angular application and try login with the credentials.
 
 Moreover, I have done Jest configuration preset for this Angular application.
